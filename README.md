@@ -23,6 +23,13 @@ from load_scores import load_scores
 kept, skipped = load_scores("scores.csv")
 ```
 
+## 상황별 확인 (check.py)
+없는 파일·정상·헤더만·지저분한 파일 네 상황에 함수를 돌려 결과를 눈으로 봅니다.
+
+```bash
+python check.py load_scores
+```
+
 ## 어떻게 테스트하나요
 ```bash
 pip install pytest pytest-cov
